@@ -1,0 +1,68 @@
+.card {
+  width: 100%;
+
+  background-color: #eee;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 4px;
+  color: #454545;
+}
+
+.card div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card div a {
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin: 5px;
+  padding: 8px 16px;
+  border: 1px solid #08131c;
+  border-radius: 4px;
+}
+
+.live-demo {
+  background: none;
+  color: #08131c;
+}
+.live-demo:hover {
+  background-color: #08131c;
+  color: #fff;
+}
+
+.project-github-link {
+  background-color: #08131c;
+  color: #fff;
+}
+.project-github-link:hover {
+  background: none;
+  color: #08131c;
+}
+
+@media screen and (max-width: 900px) {
+  .card div a {
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card div a {
+    padding: 4px 8px;
+  }
+}

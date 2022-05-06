@@ -1,0 +1,184 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.intro {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f2f2f2;
+}
+
+.name {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ef4444;
+}
+
+.developer-p {
+  font-size: 32px;
+  font-weight: 300;
+  color: #f2f2f2;
+}
+
+.experience-first,
+.skills {
+  margin-top: 20px;
+
+  font-size: 24px;
+  font-weight: 400;
+  color: #f2f2f2;
+}
+
+.experience-second {
+  font-size: 20px;
+  font-weight: 300;
+  color: #635c5c;
+}
+.experience-second span {
+  color: #ef4444;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 300;
+  color: #635c5c;
+
+  display: inline;
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.see-projects-link {
+  padding: 12px 20px;
+  font-size: 22px;
+  color: #f2f2f2;
+  background: none;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  text-decoration: none;
+
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.see-projects-link > i {
+  margin-left: 10px;
+}
+.see-projects-link:hover {
+  background-color: #f2f2f2;
+  color: #08131c;
+}
+
+.home-links {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+}
+.home-links a {
+  width: 100%;
+  font-size: 22px;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.home-links i {
+  margin-left: 10px;
+}
+
+.home-links span {
+  display: none;
+  margin-left: 5px;
+}
+.home-links a:hover {
+  color: #ef4444;
+}
+.home-links a:hover span {
+  display: inline;
+}
+
+@media screen and (max-width: 1050px) {
+  li {
+    font-size: 14px;
+    margin: 0 4px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .developer-p {
+    font-size: 24px;
+  }
+  .experience-first,
+  .skills {
+    font-size: 18px;
+  }
+  .experience-second {
+    font-size: 16px;
+  }
+  li {
+    font-size: 11px;
+    margin: 0 2px;
+  }
+  .see-projects-link {
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  li {
+    display: block;
+    text-align: center;
+  }
+
+  .home-links a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 34px;
+  }
+  .developer-p {
+    font-size: 20px;
+  }
+  .experience-first,
+  .skills {
+    font-size: 16px;
+  }
+  .experience-second {
+    font-size: 14px;
+  }
+  li {
+    font-size: 10px;
+    margin: 0 2px;
+  }
+  .see-projects-link {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .home-links a {
+    font-size: 14px;
+  }
+}
