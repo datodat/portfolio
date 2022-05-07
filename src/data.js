@@ -47,4 +47,10 @@ export const projectsArray = [
     github: 'https://github.com/datodat/Tic-Tac-Toe',
     live: 'https://tic-tac-toe-zeta-six.vercel.app/',
   },
+  {
+    name: 'Sign-up form',
+    img: './assets/signUpForm.png',
+    github: 'https://github.com/datodat/sign-up-form',
+    live: 'https://sign-up-form-puce.vercel.app/',
+  },
 ]
