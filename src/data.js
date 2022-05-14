@@ -12,6 +12,12 @@ export const projectsArray = [
     live: 'https://countries-app-lac.vercel.app/',
   },
   {
+    name: 'GitHub Users',
+    img: './assets/github.png',
+    github: 'https://github.com/datodat/github-users',
+    live: 'https://github-users-smoky.vercel.app/',
+  },
+  {
     name: 'Rating App',
     img: './assets/rating.png',
     github: 'https://github.com/datodat/interactive_rating',
