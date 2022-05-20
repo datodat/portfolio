@@ -1,5 +1,11 @@
 export const projectsArray = [
   {
+    name: 'E-Commerce',
+    img: './assets/shop.png',
+    github: 'https://github.com/datodat/e-commerce',
+    live: 'https://datos-shop.herokuapp.com/',
+  },
+  {
     name: 'Posts',
     img: './assets/posts.png',
     github: 'https://github.com/datodat/posts',
