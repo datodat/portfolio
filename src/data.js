@@ -24,6 +24,12 @@ export const projectsArray = [
     live: 'https://github-users-smoky.vercel.app/',
   },
   {
+    name: 'Music Player',
+    img: './assets/musicPlayer.png',
+    github: 'https://github.com/datodat/music_player',
+    live: 'https://music-player-pink-five.vercel.app/',
+  },
+  {
     name: 'Rating App',
     img: './assets/rating.png',
     github: 'https://github.com/datodat/interactive_rating',
